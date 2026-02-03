@@ -22,3 +22,27 @@ header nav a{
 .contadoraWendy{
     font-size: 1.5rem;
 }
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+@media (max-width: 768px) {
+    nav ul {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    }
+}
+
