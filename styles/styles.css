@@ -1,7 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    color: #2e2e2e;
+    background-color: #f8f9fa;
 }
+
 html{
     font-size: 62,5%;
 }
@@ -70,8 +73,17 @@ nav ul {
     background-color: #f5f7fa;
 }
 .servicios {
-  padding: 4rem 2rem;
-  text-align: center;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.contabilidadimagen {
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("../assets/contabilidad.jpg");
+  background-size: cover;        /* ajusta la imagen al contenedor */
+  background-position: center;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  height: 40vh;                  /* altura visible (ajustable) */
 }
 
 .servicios-A {
@@ -191,6 +203,47 @@ nav ul {
     font-size: 0.95rem;
     line-height: 1.5;
 }
+footer {
+    background-color: #2f3e46;
+    color: #ffffff;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+
+.footer-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer label {
+    font-size: 0.9rem;
+}
+
+footer input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 260px;
+}
+
+.footer-copy {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+section {
+    margin-bottom: 60px;
+}
+
+
 
 
 
